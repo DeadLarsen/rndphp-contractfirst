@@ -1,0 +1,33 @@
+/* Basic */
+
+.slide h2 {
+    margin-top: 6px;
+    margin-bottom: 34px;
+    color: var(--color-grey);
+    font: bold 40px/1 'PT Sans Narrow', sans-serif;
+}
+
+.slide h2::after {
+    content: "";
+    height: 10px;
+    display: block;
+    border-bottom: 4px solid #ffe54fff;
+    max-width: 30%;
+}
+
+.slide * + h2 {
+    margin-top: 41px;
+}
+
+.slide p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.slide p.note {
+    color: var(--color-grey);
+}
+
+.slide figure {
+    margin: 0;
+}
